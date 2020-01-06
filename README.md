@@ -32,7 +32,7 @@ npm install never
 ## Usage
 
 ```js
-const never = require('never)
+const never = require('never')
 
 // Throw with a default message:
 never()
