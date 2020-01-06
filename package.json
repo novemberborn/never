@@ -1,0 +1,29 @@
+{
+  "name": "never",
+  "version": "0.0.0",
+  "description": "A function that throws when called, use with nullish coalescing to elide unexpected nullish values",
+  "engines": {
+    "node": ">=10.18.0 <11 || >=12.14.0 <13 || >=13.5.0"
+  },
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "standard && tsd && nyc ava"
+  },
+  "keywords": [
+    "never",
+    "typescript",
+    "assert"
+  ],
+  "author": "Mark Wubben (https://novemberborn.net/)",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "3.0.0-beta.1",
+    "nyc": "^15.0.0",
+    "standard": "^14.3.1",
+    "tsd": "^0.11.0"
+  }
+}
