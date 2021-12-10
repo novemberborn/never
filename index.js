@@ -1,5 +1,5 @@
 'use strict'
-const { AssertionError } = require('assert')
+const AssertionError = require('./AssertionError')
 
 function never (message = 'Unexpected call to never()') {
   throw new AssertionError({ message, stackStartFn: never })

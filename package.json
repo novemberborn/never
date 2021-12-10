@@ -10,7 +10,9 @@
   "types": "index.d.ts",
   "files": [
     "index.d.ts",
-    "index.js"
+    "index.js",
+    "AssertionError.js",
+    "AssertionError.native.js"
   ],
   "scripts": {
     "test": "standard && tsd && nyc ava"
@@ -18,7 +20,8 @@
   "keywords": [
     "never",
     "typescript",
-    "assert"
+    "assert",
+    "react-native"
   ],
   "author": "Mark Wubben (https://novemberborn.net/)",
   "license": "ISC",
