@@ -18,7 +18,8 @@
   "keywords": [
     "never",
     "typescript",
-    "assert"
+    "assert",
+    "react-native"
   ],
   "author": "Mark Wubben (https://novemberborn.net/)",
   "license": "ISC",
